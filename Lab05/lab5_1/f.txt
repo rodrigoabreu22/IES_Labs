@@ -1,0 +1,4 @@
+If I add multiple consumers they will also receive the messages of the subscribed topic (in this case lab05).
+Consumers will not receive messages sent before they start, they only start receiving messages in the moment they join.
+
+If I stop a consumer and run it again it will receive the messages of the subscribed topic sent when it was desactivated when a new message is sent.

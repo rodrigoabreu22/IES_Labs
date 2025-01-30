@@ -1,0 +1,6 @@
+2024-09-25T18:15:38.063+0100 INFO Forecast for city 1010500
+2024-09-25T18:15:38.120+0100 INFO PT | 2024-09-25 | Min Temperature: 17,9 | Max Temperature: 23,1 | Precipitation prob: 100,0 | Wind Direction: SW
+2024-09-25T18:15:38.121+0100 INFO PT | 2024-09-26 | Min Temperature: 17,3 | Max Temperature: 22,9 | Precipitation prob: 100,0 | Wind Direction: W
+2024-09-25T18:15:38.122+0100 INFO PT | 2024-09-27 | Min Temperature: 13,5 | Max Temperature: 20,0 | Precipitation prob: 34,0 | Wind Direction: N
+2024-09-25T18:15:38.123+0100 INFO PT | 2024-09-28 | Min Temperature: 10,9 | Max Temperature: 20,6 | Precipitation prob:  0,0 | Wind Direction: N
+2024-09-25T18:15:38.123+0100 INFO PT | 2024-09-29 | Min Temperature: 11,7 | Max Temperature: 24,2 | Precipitation prob:  4,0 | Wind Direction: NW

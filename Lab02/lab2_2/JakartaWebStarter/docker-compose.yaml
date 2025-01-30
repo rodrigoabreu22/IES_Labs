@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  tomcat-10-0-11-jdk17:
+    image: tomcat:10.0-jdk17
+    ports:
+      # Expose Tomcat port 8080 (container) on host as port 8888 (host)
+      - "8888:8080"
+      # Expose Java debugging port 5005 on host as port 5005 (HOST:CONTAINER)
+      - "5005:5005"
+    volumes:
+      # Ensure the WAR file is correctly mapped
+      - "./target/:/usr/local/tomcat/webapps"
+    environment:
+      JAVA_OPTS: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"

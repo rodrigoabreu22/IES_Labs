@@ -1,0 +1,17 @@
+1.
+O objeto não é instanciado. É um processo de dependency injection, onde a interface UserRepository é injetada no UserController através do construtor.
+
+2.
+- save()
+- findAll()
+- findById(id)
+- delete()
+
+A interface CrudRepository e os seus métodos são definidos no módulo Spring Data Commons.
+Ao incluir a dependência Spring Data JPA no projeto, consigo ter acesso aos repositórios desta interface e aos seus métodos.
+
+3.
+Os dados são guardados na H2 database.
+
+4.
+@NotBlank(message = "Email is mandatory") é definido na User class.

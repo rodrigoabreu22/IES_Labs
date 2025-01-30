@@ -1,0 +1,2 @@
+Last message: {'nMec': '113626', 'generatedNumber': 75025, 'type': 'fibonacci'}
+The consumer received all messages.

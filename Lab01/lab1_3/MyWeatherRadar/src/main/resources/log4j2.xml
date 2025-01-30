@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="debug" name="weatherlogging" packages="">
+<!-- Logging Properties -->
+    <Properties>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n</Property>
+        <Property name="LOG_ROOT">log</Property>
+    </Properties>
+
+
+    <Appenders>
+        <File name="weatherinfo" fileName="${LOG_ROOT}/weather-info.log" append="false">
+            <PatternLayout>
+                <Pattern>${LOG_PATTERN}</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="weatherinfo"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
+

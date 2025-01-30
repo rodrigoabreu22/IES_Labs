@@ -1,0 +1,6 @@
+Kafka organizes messages into topics, with each topic divided into multiple partitions.
+Consumers retrieve messages from individual partitions within a topic.
+Kafka uses offsets—sequential integers starting at zero and increasing by one for each stored message—to track which messages have been read by consumers.
+
+For example, if a consumer reads the first five messages from a partition, Kafka marks the offset up to 4 as committed (following a zero-based sequence) based on the configuration.
+When the consumer resumes, it begins reading from the next offset, which is 5.
