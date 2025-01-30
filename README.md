@@ -1,9 +1,13 @@
 # IES_Individual
-Grades: 
+#### Grades: 
 lab1: 15.3
+
 lab2: 17.9
+
 lab3: 18.4
+
 lab4: 17.6
+
 lab5: 15.1
 
 # Apontamentos Lab1
